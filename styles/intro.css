@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #242b2e;
+    color: #fff;
+}
+.main-head {
+    width: 95%;
+    min-height: 15vh;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    flex: 1 1 15rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo > img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul {
+    flex: 1 1 35rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul > li > a {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.intro {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-left {
+    height: 85vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #22cc7f;
+}
+
+.intro-right {
+    background-color: #22cc7f;
+    height: 85vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #242b2e;
+}
+.intro-right h1 {
+    color: #242b2e;
+}
+
+.name {
+    font-size: 12rem;
+    color: #22cc7f;
+    font-family: "Great Vibes", cursive;
+}
+.skills {
+    min-height: 100vh;
+    display: flex;
+}
+.skills-left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #242b2e;
+    background-color: #22cc7f;
+}
+.skills-left > h1 {
+    font-size: 12rem;
+    color: #242b2e;
+}
+.skills-right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-right h1 {
+    font-size: 6rem;
+    color: #22cc7f;
+    display: none;
+}
+.skills-right > div {
+    margin: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill-logo {
+    height: 10rem;
+}
+.myDetails {
+    min-height: 100vh;
+    display: flex;
+}
+.myDetails-left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.largePic {
+    border-radius: 10%;
+    box-shadow: -40px 38px 0px -6px rgba(34, 204, 127, 0.75);
+    -webkit-box-shadow: -40px 38px 0px -6px rgba(34, 204, 127, 0.75);
+    -moz-box-shadow: -40px 38px 0px -6px rgba(34, 204, 127, 0.75);
+    margin-bottom: 5rem;
+    width: 65%;
+}
+.icon-container {
+    width: 30%;
+    min-width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon-container > img {
+    cursor: pointer;
+}
+.myDetails-right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #242b2e;
+    background-color: #22cc7f;
+}
+.myDetails-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myDetails-heading {
+    font-size: 5rem;
+}
+.myDetail {
+    background-color: #242b2e;
+    color: #22cc7f;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 10px 11px 23px 1px rgba(36, 43, 46, 0.75);
+    -webkit-box-shadow: 10px 11px 23px 1px rgba(36, 43, 46, 0.75);
+    -moz-box-shadow: 10px 11px 23px 1px rgba(36, 43, 46, 0.75);
+}
+footer {
+    min-height: 10vh;
+    color: #22cc7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    html {
+        font-size: 85%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 82%;
+    }
+    .skill-logo {
+        height: 8rem;
+    }
+    .myDetails-heading {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .skills-left {
+        display: none;
+    }
+    .skills-right {
+        width: 100%;
+    }
+    .skills-right > h1 {
+        display: block;
+    }
+    .myDetails {
+        flex-direction: column;
+    }
+    .myDetails-left {
+        width: 100%;
+    }
+    .myDetails-right {
+        width: 100%;
+    }
+    .name {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .name {
+        font-size: 8rem;
+    }
+}
+@media screen and (max-width: 606px) {
+    .logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .name {
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 65%;
+    }
+    .name {
+        font-size: 5rem;
+    }
+    .myDetails-heading {
+        font-size: 2rem;
+    }
+    .intro,
+    .intro-right,
+    .intro-left {
+        margin-bottom: 5rem;
+    }
+    .skills,
+    .skills-right,
+    .skills-left {
+        height: 60vh;
+        padding-top: 5rem;
+    }
+
+    .skills-right > h1 {
+        margin-bottom: 5rem;
+    }
+    .myDetails,
+    .myDetails-left,
+    .myDetails-right {
+        height: 100vh;
+    }
+    .myDetails-left {
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .name {
+        font-size: 4rem;
+    }
+}
