@@ -318,3 +318,76 @@ footer {
         font-size: 4rem;
     }
 }
+/* -----------------------------project Section--------------------- */
+.projects {
+    background-color: #22cc7f;
+    min-height: 85vh;
+}
+.projects-head {
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.project-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project {
+    background-color: #242b2e;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+}
+.project > h1,
+h4 {
+    margin-bottom: 10px;
+}
+.project > h1 {
+    margin-top: 10px;
+}
+.project:nth-child(15) {
+    margin-bottom: 50px;
+}
+.project-buttonContainer {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4rem;
+}
+.project-buttonContainer > button,
+a {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.project-buttOne {
+    background-color: #22cc7f;
+}
+.project-buttTwo {
+    border: 1px solid #22cc7f !important;
+    background-color: #242b2e;
+}
+
+@media screen and (max-width: 900px) {
+    .project-buttonContainer {
+        min-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .project-buttonContainer {
+        min-width: 60%;
+    }
+}
